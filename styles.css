@@ -41,10 +41,10 @@ input:focus, textarea:focus {
     border-color: #555;  
     }  
   
-.form label {  
-    margin-left: 10px;  
-    color: #999999;  
-    }  
+input[type="radio"]{
+	width:20px;
+	height:20px;
+} 
   
 .submit {  
     width: auto;  

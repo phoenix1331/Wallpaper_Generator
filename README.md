@@ -1,2 +1,4 @@
-Wallpaper_Generator
+Wallpaper Generator
 ===================
+
+Version 1.0

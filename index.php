@@ -19,16 +19,15 @@ if(!empty($message)){
 
 <form action="index.php" method="post">
 
-      <input type="radio" name="selection" value="1024x768" checked/> <label>1024 x 768</label>
-      <input type="radio" name="selection" value="1280x800" /> <label>1280 x 800</label>
-      <input type="radio" name="selection" value="1366x768" /> <label>1366 x 768</label>
+    <input type="radio" name="selection" value="1024x768" checked/> <label>1024 x 768</label>
+    <input type="radio" name="selection" value="1280x800" /> <label>1280 x 800</label>
+    <input type="radio" name="selection" value="1366x768" /> <label>1366 x 768</label>
 
-<div class="center">
     <p>Name: <input type="text" name="text" value="Your Name Here" />
     <input type="hidden" name="submit" value="preview">
-      <input type="submit" class="submit" value="Generate"/>
+    <input type="submit" class="submit" value="Generate"/>
     </p>
-  </div>
+
 </form>
 <p>Type your name in the box above and press generate wallpaper.</p>
 
@@ -63,10 +62,8 @@ if(!empty($message)){
 ?>
 <img src="<?php echo $return_url; ?>" <?php echo $size; ?> border="1" />
 
-<br /><br />
 <br />
 <br />
-
 
 <form method="post" action="<?php echo $return_url; ?>" target="_blank">
 <input type="hidden" name="submit" value="save">

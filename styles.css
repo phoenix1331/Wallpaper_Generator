@@ -26,7 +26,7 @@ input, textarea {
     outline: 0;  
     font: normal 13px/100% Verdana, Tahoma, sans-serif;  
     width: 300px;  
-    background: #fed780;  
+    background: #e1e1e1;  
     }  
   
 textarea {  
@@ -38,7 +38,7 @@ textarea {
   
 input:hover, textarea:hover,  
 input:focus, textarea:focus {  
-    border-color: #ffb60f;  
+    border-color: #555;  
     }  
   
 .form label {  
@@ -49,10 +49,10 @@ input:focus, textarea:focus {
 .submit {  
     width: auto;  
     padding: 9px 15px;  
-    background: #ffb60f;  
+    background: #e1e1e1;  
     border: 0;  
     font-size: 14px;  
-    color: #fff;  
+    color: #555;  
     } 
 	
 	.err{color:#ff0000;}

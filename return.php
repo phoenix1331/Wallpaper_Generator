@@ -3,7 +3,7 @@
 	$text = $_REQUEST["text"];
 
 	// customizable variables
-	$font_file = 'arial.ttsf';
+	$font_file = 'arial.ttf';
 	$font_size = 48;
 	$r = 0;
 	$g = 0;

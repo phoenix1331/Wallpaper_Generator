@@ -48,11 +48,14 @@ input[type="radio"]{
   
 .submit {  
     width: auto;  
-    padding: 9px 15px;  
-    background: #e1e1e1;  
+    padding: 11px 15px;  
+    background: #555;  
     border: 0;  
     font-size: 14px;  
-    color: #555;  
-    } 
-	
-	.err{color:#ff0000;}
+    color: #fff;  
+} 
+
+.submit:hover{
+	background:#e1e1e1;
+	color:#555;
+}

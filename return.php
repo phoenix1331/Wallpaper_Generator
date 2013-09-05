@@ -61,8 +61,8 @@
 	// Write the text
 	imagettftext($image, $font_size, 0, $put_text_x,  $put_text_y, $font_color, $font_file, $text);
 	header('Content-type: image/png');
-	ImagePNG($image) ;
-	ImageDestroy($image) ;
+	ImagePNG($image);
+	ImageDestroy($image);
 	exit ;
 
 

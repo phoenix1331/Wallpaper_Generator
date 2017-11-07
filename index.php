@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Custom Wallpaper Generator</title>
-
+<!-- on test branch -->
 <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
-<!-- on test branch -->
+
 <body>
 <div id="wrap">
 <?php

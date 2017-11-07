@@ -17,7 +17,7 @@ if(!empty($message)){
 
 ?>
 
-<!-- something here on test branch -->
+
 
 <form action="index.php" method="post">
 
@@ -33,7 +33,7 @@ if(!empty($message)){
 </form>
 <p>Type your name in the box above and press generate wallpaper.</p>
 
-
+<!-- something here on test branch -->
 <?php 
 if(isset($_REQUEST["selection"])){
 	$select = $_REQUEST["selection"];

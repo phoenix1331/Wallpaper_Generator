@@ -16,7 +16,7 @@ if(!empty($message)){
 }
 
 ?>
-
+<!-- test one -->
 <form action="index.php" method="post">
 
     <input type="radio" name="selection" value="1024x768" checked/> <label>1024 x 768</label>

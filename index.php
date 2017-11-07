@@ -33,8 +33,16 @@ if(!empty($message)){
 
 
 <?php 
+if(isset($_REQUEST["selection"])){
 	$select = $_REQUEST["selection"];
+}else{
+	$select = '';
+}
+if(isset($_REQUEST["text"])){
 	$text = $_REQUEST["text"];
+}else{
+	$text = '';
+}
 	$return_url = 'return.php?selection=' . "" . $select . "" . '&text=' . "" .  $text;
 ?>
 <?php 
